@@ -53,14 +53,14 @@
 
 5. 配置ffmpeg
 
-5-1. 在下载的ffmpeg目录中，配置
-```
- ./configure --prefix=/usr/local/ffmpeg --enable-gpl --enable-version3 --enable-nonfree --enable-postproc --enable-libass --enable-libfdk-aac --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libxvid --disable-static --enable-shared
-```
+  - 5-1. 在下载的ffmpeg目录中，配置
+  ```
+  ./configure --prefix=/usr/local/ffmpeg --enable-gpl --enable-version3 --enable-nonfree --enable-postproc --enable-libass --enable-libfdk-aac --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libxvid --disable-static --enable-shared
+  ```
 
-5-2. `make -j4`
+  - 5-2. `make -j4`
 
-5-3. `sudo make install`
+  - 5-3. `sudo make install`
 
 6. 配置环境变量
 编辑`~/.bash_profile` 并添加环境变量
