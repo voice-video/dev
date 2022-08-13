@@ -51,6 +51,10 @@
 4. 安装SDL2
 > ffplay是需要依赖SDL进行画面的展示和声音的播放的。所以集成的前提是需要安装好SDL2
 
+```
+brew install --build-from-source sdl2
+```
+
 5. 配置ffmpeg
 
   - 5-1. 在下载的ffmpeg目录中，配置
@@ -87,15 +91,6 @@ rtmp://r.ossrs.net/live/livestream
 
 1. qt下载安装
 > 网上有很多下载安装的教程，这里不再赘述，推荐安装5.12.x及以上的版本
-
-
-
-
-
-
-
-
-
 
 
 
