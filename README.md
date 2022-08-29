@@ -76,7 +76,7 @@ export PATH="$PATH:/usr/local/ffmpeg/bin"
 保存后执行下面的语句，立即生效
 
 ```
-source ~/.base_profile
+source ~/.bash_profile
 ```
 
 7. 测试
@@ -84,7 +84,7 @@ source ~/.base_profile
 执行下面的命令：
 
 ```
-rtmp://r.ossrs.net/live/livestream
+ffplay rtmp://r.ossrs.net/live/livestream
 ```
 
 ### qt相关环境
